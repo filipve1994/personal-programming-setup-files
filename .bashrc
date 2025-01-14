@@ -32,8 +32,10 @@
 alias loadaliases="source ~/.bashrc"
 
 # Alias definitions.
-if [ -f ~/personalprogrammingsetup/bash_aliases/$HOSTNAME ]; then
-  . ~/personalprogrammingsetup/bash_aliases/$HOSTNAME
-else
-  . ~/personalprogrammingsetup/bash_aliases/default.sh
+if [ -f ~/personalprogrammingsetup/bash_aliases/.bash_aliases ]; then
+  . ~/personalprogrammingsetup/bash_aliases/.bash_aliases
+fi
+
+if [ -f ~/personalprogrammingsetup/.bash_functions ]; then
+    . ~/.bash_functions
 fi

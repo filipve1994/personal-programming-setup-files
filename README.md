@@ -21,4 +21,5 @@ see file .bashrc in root folder here.
 
 - https://davidjguru.github.io/blog/linux-70-commands-aliases-for-everyday-life
 - https://ohmyz.sh/
-- 
+- https://opensource.com/article/19/7/bash-aliases
+- https://gist.github.com/davidjguru/019beabeac6245959564499db3e45084#file-bash_aliases
