@@ -1,7 +1,4 @@
 
-#In base, you place the aliases that you want to be available for every host.
-
-alias ll="ls -l"
 
 # load subfiles from subfolder base_aliases_per_group
 
