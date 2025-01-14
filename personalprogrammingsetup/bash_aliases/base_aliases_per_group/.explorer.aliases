@@ -1,0 +1,21 @@
+
+
+## Files, folders and resources  
+alias fh='find . -name '   
+
+alias ..='cd ..'  
+alias ...='cd ../..' # Go up two directories
+alias ....='cd ../../..' # Go up three directories
+
+### More Jump down  
+alias cd..='cd ..'       # Common misspelling for going up one directory
+alias 1d="cd .."  # Go up one directory
+alias 2d="cd ..;cd .."  # Go up 2 directories
+alias 3d="cd ..;cd ..;cd .."  # Go up 3 directories
+alias 4d="cd ..;cd ..;cd ..;cd .."  # Go up 4 directories
+alias 5d="cd ..;cd ..;cd ..;cd ..;cd .." # Go up 5 directories
+
+alias cdgoback='cd -'        # Go back => navigate to previous folder
+
+# Directory
+alias md='mkdir -p' # => make a folder

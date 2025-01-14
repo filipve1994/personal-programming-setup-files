@@ -15,6 +15,10 @@ see file .bashrc in root folder here.
 ### MACOS
 
 
+## links to still LOOK AT !!!!!!!!!!!!!!!!!
+
+- https://github.com/mishal23/dotfiles/blob/master/.bash_aliases
+- https://github.com/vikaskyadav/awesome-bash-alias
 
 
 ## links
@@ -23,3 +27,12 @@ see file .bashrc in root folder here.
 - https://ohmyz.sh/
 - https://opensource.com/article/19/7/bash-aliases
 - https://gist.github.com/davidjguru/019beabeac6245959564499db3e45084#file-bash_aliases
+- https://www.zdnet.com/article/try-these-linux-bash-aliases-for-more-efficient-use-of-the-command-line/
+- https://chuck.is/alias/
+- https://github.com/mishal23/dotfiles/blob/master/.bash_aliases
+- https://opensource.com/article/19/7/bash-aliases
+- https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+- https://ostechnix.com/useful-bash-aliases/
+- https://github.com/vikaskyadav/awesome-bash-alias
+- https://github.com/Bash-it/bash-it/tree/master/aliases/available
+- 

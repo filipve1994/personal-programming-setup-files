@@ -1,0 +1,22 @@
+
+alias mavenci='mvn clean install'
+alias maveni='mvn install'
+alias mavenc='mvn clean'
+alias mavenct='mvn clean test'
+alias mavencc='mvn clean compile'
+alias mavenccnt='mvn clean compile -DskipTests=true'
+alias mavenp='mvn package'
+alias mavencp='mvn clean package'
+alias mavencpnt='mvn clean package -DskipTests=true'
+alias mavenrprep='mvn release:prepare'
+alias mavenrperf='mvn release:perform'
+alias mavenrrb='mvn release:rollback'
+alias mavendep='mvn dependency:tree'
+alias mavenpom='mvn help:effective-pom'
+alias mavencisk='mci -Dmaven.test.skip=true'
+alias mavencpsk='mcp -Dmaven.test.skip=true'
+
+# Maven service plugin aliases
+alias mavenspring='mvn spring-boot:run'
+
+# https://github.com/Bash-it/bash-it/blob/master/aliases/available/maven.aliases.bash

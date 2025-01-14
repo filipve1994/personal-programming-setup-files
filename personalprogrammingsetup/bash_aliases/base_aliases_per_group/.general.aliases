@@ -1,0 +1,34 @@
+
+
+## Usual Instructions  
+alias cls='clear' # The 'cls' alias clears the terminal screen, providing a clean working environment. 
+alias h='history'  
+alias hg='history | grep $1'  # This command would list all commands in your history that included cd
+
+alias grep='grep --color=auto -i' # The 'grep' alias enables case-insensitive text searching with colorized output.
+
+
+## Content in folders  
+### Getting info from a position in a folder.
+alias ll='ls -la' ## Use a long listing format ##    
+alias lf='ls -alF'  
+alias la='ls -A'  
+#alias ls='ls -CF'
+alias ls='ls --color=auto -h' # This alias enhances the 'ls' command by enabling colorized output and displaying file sizes in a human-readable format. 
+alias lt='ls --human-readable --size -1 -S --classify' # Sort by file size
+
+alias ltmacos='du -sh * | sort -h'
+
+alias lh='ls -ahlt'
+alias lu='du -sh * | sort -h'  
+alias lt='ls -t -1 -long'  
+alias lc='find . -type f | wc -l'  
+alias ld='ls -d */'  
+
+alias count='find . -type f | wc -l' # Count the number of files => you'll see how many files are within the current directory (and the included child directories)
+
+## date and time aliases
+
+alias now='date +%T' # show just the time
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'

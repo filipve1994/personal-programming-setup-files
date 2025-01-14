@@ -1,6 +1,18 @@
 ## Git aliases
 ## links
 
+
+### Basic info
+alias gs='git status'  
+alias gb='git branch'
+
+alias gl="git log"
+
+alias ga="git add"
+alias gaa="git add -A"
+alias gal="git add ."
+alias gall="git add ."
+
 alias gc='git clone'
 alias gd='git diff'
 alias gfa='git fetch --all'
@@ -8,3 +20,29 @@ alias gfp='git fetch --all && git pull'
 alias gcmsg='git commit -m'
 alias gitc='git checkout'
 alias gitm='git checkout master'
+alias gitcb='git checkout -b'
+
+alias gsh='git stash'
+alias gw='git whatchanged'
+
+### Pushing to basic branches 
+alias gpom='git push origin master'  
+alias gpod='git push origin develop'
+
+# cherry-pick
+alias gitcp='git cherry-pick'
+alias gitcpx='git cherry-pick -x'
+
+## push
+alias gp='git push'
+alias gpff='git push --force'
+
+# pull
+alias gl='git pull'
+
+# remote
+alias gr='git remote'
+alias gra='git remote add'
+alias grv='git remote -v'
+
+## https://github.com/Bash-it/bash-it/blob/master/aliases/available/git.aliases.bash

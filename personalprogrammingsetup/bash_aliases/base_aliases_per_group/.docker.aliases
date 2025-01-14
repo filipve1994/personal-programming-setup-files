@@ -105,20 +105,20 @@ function d-aws-cli-fn {
 }
 
 alias daws=d-aws-cli-fn
-alias dc=dc-fn 
+alias dc=dc-fn # docker compose   
 alias dcu="docker compose up -d"
 alias dcd="docker compose down"
-alias dcr=dcr-fn
-alias dex=dex-fn
-alias di=di-fn
-alias dim="docker images"
-alias dip=dip-fn
-alias dl=dl-fn
-alias dnames=dnames-fn
-alias dps="docker ps"
-alias dpsa="docker ps -a"
-alias drmc=drmc-fn
-alias drmid=drmid-fn
-alias drun=drun-fn
+alias dcr=dcr-fn # docker compose run 
+alias dex=dex-fn # 
+alias di=di-fn # docker inspect <container>   
+alias dim="docker images" # List Docker images
+alias dip=dip-fn # IP addresses of all running containers 
+alias dl=dl-fn # docker logs -f <container>      
+alias dnames=dnames-fn # names of all running containers 
+alias dps="docker ps" # List running Docker containers
+alias dpsa="docker ps -a" # List all Docker containers
+alias drmc=drmc-fn # remove all exited containers  
+alias drmid=drmid-fn # remove all dangling images    
+alias drun=drun-fn #  execute a bash shell in NEW container from <image>
 alias dsp="docker system prune --all"
-alias dsr=dsr-fn
+alias dsr=dsr-fn # stop then remove <container>
