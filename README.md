@@ -21,7 +21,7 @@ alias loadaliases="source ~/.bashrc"
 if [ -f ~/personalprogrammingsetup/bash_aliases/$HOSTNAME ]; then
   . ~/personalprogrammingsetup/bash_aliases/$HOSTNAME
 else
-  . ~/personalprogrammingsetup/bash_aliases/default
+  . ~/personalprogrammingsetup/bash_aliases/default.sh
 fi
 
 ```
